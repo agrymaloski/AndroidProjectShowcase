@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The background color (white in this case) -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/holo_purple" />
+        </shape>
+    </item>
+    <!-- The actual border with a transparent center -->
+    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2dp" android:color="#000000" /> <!-- Border color -->
+        </shape>
+    </item>
+</layer-list>

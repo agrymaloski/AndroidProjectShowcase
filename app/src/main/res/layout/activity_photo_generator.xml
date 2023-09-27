@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photoGenView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-40dp">
+
+
+    <ImageView
+        android:id="@+id/generatedImage"
+        android:layout_width="425dp"
+        android:layout_height="251dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        />
+
+    <TextView
+        android:id="@+id/photoTitle"
+        android:layout_width="349dp"
+        android:layout_height="41dp"
+        android:text="Random Photo Generator!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/generatePhotoDes"
+        android:layout_width="387dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:text="Input the category of the random image you want to see. Please select from a list of
+nature, city, technology, food, still_life, abstract, wildlife"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <EditText
+        android:id="@+id/categoryInput"
+        android:layout_width="306dp"
+        android:layout_height="45dp"
+        android:hint="Input Random Category"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Generate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
