@@ -1,14 +1,14 @@
-#Android Project Showcase: Ninja Activities
+# Android Project Showcase: Ninja Activities
 
 Welcome to my Android Project showcase! This project integrates a variety of fun and exciting features that blend the world of Ninjas with some modern applications. Here's what you can expect:
 
-Features
+## Features
 
 1. Random Photo Generator
 Generate a random photo of your desired category (ex. nature, food etc) with a random photo generator. Each time you use this feature, a new and unique photo of the specified category is fetched using API Ninja's (https://api-ninjas.com/api/randomimage).
 
 
-2. Calorie Activity Generator
+## 2. Calorie Activity Generator
 Curious about what activities burn the most calories? Use the calorie activity generator to see how many calories each activity burns! This information is generated using the API Ninja's (https://api-ninjas.com/api/caloriesburned)
 
 Example:
@@ -37,15 +37,10 @@ example response =
   }
 ]
 
-3. Ninja Phone Game
-Test your strategy skills with a bomb game.
+## 3. Don't Touch the Bomb Phone Game
+Test your strategy skills with a bomb game. Clear the whole board without touching a bomb. 
 
-Installation
 
-Download Android Studio
-Install the application on your Android device.
-Open the app and navigate through the features listed above.
-Enjoy!
 Feedback
 
 If you have any suggestions, feedback, please feel free to open an issue or send a pull request.
